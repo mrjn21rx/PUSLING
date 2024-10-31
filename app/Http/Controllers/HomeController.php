@@ -28,7 +28,7 @@ class HomeController extends Controller
 
         $widget = [
             'users' => $users,
-            //...
+            //.....
         ];
 
         return view('home', compact('widget'));
